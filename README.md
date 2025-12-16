@@ -1,2 +1,2 @@
 # css-practice
-Basic webpages for practicing css and html
+Basic webpage for practicing css and html
