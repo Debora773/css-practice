@@ -1,0 +1,83 @@
+.primary1 {
+  background-color: #1f4e79;
+}
+.primary2 {
+  background-color: #f6f8fa;
+}
+
+.secondary1 {
+  background-color: #d9e0e6;
+}
+.secondary2 {
+  background-color: #cfe4f2;
+}
+
+.accent {
+  background-color: #5fa6a8;
+}
+
+.icon-square {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 0.45rem;
+}
+
+.logo {
+  color: #f6f8fa;
+}
+
+html {
+  background-color: #f6f8fa;
+  font-family: "Inter", sans-serif; /* this is not working */
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+}
+
+.number-card {
+  width: 300px;
+  margin: 30px;
+  border-radius: 2rem;
+}
+
+.queue-number{
+    font-size: 100px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.clinic{
+    background-color: #1f4e79;
+    display: inline-flex;
+    border-radius: 0.45rem;
+    padding: 5px;
+}
+
+.clinic > *{
+    align-items: center;
+    margin: 3px;
+    color: #f6f8fa; /* this is not working */
+}
+
+.card-title{
+    margin:0 ;
+}
+
+.info-card-body{
+    margin-top: 15px;
+    
+}
+
+.info-card-body span{
+    font-weight: bold;
+}
+
+.refresh-card{
+      border-radius: 2rem;
+      font-size: small;
+      width: 300px;
+}
